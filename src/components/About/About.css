@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* tablets */
 @media screen and (max-width: 1000px) {
     .about___container {
@@ -31,8 +31,7 @@
         .about__content p{
             margin: 1.5rem 0;
         }
-
-=======
+}
 .about__container {
     display:grid;
     grid-template-columns: 35% 50%;
@@ -101,5 +100,5 @@
 .about__content p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
->>>>>>> 575806fcf736c48190baf755aa468c17b8215102
+
 }
