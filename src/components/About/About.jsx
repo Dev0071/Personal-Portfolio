@@ -41,7 +41,7 @@ const About = () => {
 
           <p>
             I have been actively developing my skills for the past two years,
-            and I'm constantly seeking new challenges and opportunities to push
+            and have constantly seeking new challenges and opportunities to push
             myself further.
             <br /> As a developer, I'm committed to producing high-quality code
             that is well-documented, maintainable, and scalable. I'm always
