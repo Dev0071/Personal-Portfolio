@@ -40,10 +40,17 @@ const About = () => {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            consequuntur ad itaque sed, autem commodi expedita quibusdam dicta
-            voluptatibus. Qui sunt corrupti unde nihil doloremque laborum
-            exercitationem tenetur sit culpa.
+            I have been actively developing my skills for the past two years,
+            and I'm constantly seeking new challenges and opportunities to push
+            myself further.
+            <br /> As a developer, I'm committed to producing high-quality code
+            that is well-documented, maintainable, and scalable. I'm always
+            looking for ways to optimize my code for better performance, and I
+            enjoy collaborating with others to find creative solutions to
+            complex problems.
+            <br /> Thank you for checking out my portfolio, and feel free to
+            reach out if you have any questions or would like to work together
+            on a project!
           </p>
 
           <a href="#Contact" className="btn btn-primary">
