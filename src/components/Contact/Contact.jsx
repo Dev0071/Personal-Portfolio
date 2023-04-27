@@ -5,6 +5,8 @@ import { TfiTwitter } from 'react-icons/tfi';
 import { BsWhatsapp } from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const form = useRef();
@@ -22,6 +24,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success('Message sent successfully');
         },
         (error) => {
           console.log(error.text);
@@ -95,6 +98,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+          <ToastContainer />
         </form>
       </div>
     </section>
