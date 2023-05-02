@@ -28,18 +28,18 @@
 }
 
 .portfolio__item h3 {
-  margin: 1rem 0 2rem;
   margin: 0.6rem 0;
 }
 
 .portfolio__item h4 {
   margin-bottom: 0.8rem;
-  line-height: 2rem;
+  /* line-height: 2rem; */
 }
 .portfolio__item-cta {
   display: flex;
+  /* flex: 1; */
   justify-content: space-around;
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 
 /* tablets */
@@ -55,4 +55,14 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+  /* .portfolio__item-cta {
+    margin-top: 5rem;
+  }
+  .portfolio__item h3 {
+    margin: 1.2rem 0;
+  }
+  .portfolio__item h4 {
+    margin: 1.2rem 0;
+    line-height: 2rem;
+  } */
 }

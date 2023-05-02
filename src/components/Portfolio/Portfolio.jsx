@@ -16,7 +16,6 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={Img2} alt="" />
           </div>
-
           <h3>CrptoApp</h3>
           <h4>skills: ReactJs, antd-design, chartsJs, linecharts</h4>
           <div className="portfolio__item-cta">
@@ -102,7 +101,7 @@ const Portfolio = () => {
           <h4>skills: ReactJs, RestAPIs, Css3, React-router</h4>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/Dev0071/react-cocktails-app"
               target="_blank"
               rel="noreferrer"
               className="btn"
@@ -110,7 +109,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com"
+              href="https://cocktails-app-seven.vercel.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
