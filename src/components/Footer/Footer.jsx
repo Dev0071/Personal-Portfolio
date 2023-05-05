@@ -1,9 +1,7 @@
 import React from 'react';
 import './footer.css';
-import { FaFacebookF } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
-import { BsInstagram } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 
 const Footer = () => {
@@ -18,22 +16,20 @@ const Footer = () => {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#About">About</a>
         </li>
         <li>
-          <a href="#expirience">Experience</a>
+          <a href="#Experience">Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#Service">Services</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#Portfolio">Portfolio</a>
         </li>
+
         <li>
-          <a href="#tesimonials">Testiimonials</a>
-        </li>
-        <li>
-          <a href="#contacts">Contacts</a>
+          <a href="#Contact">Contacts</a>
         </li>
       </ul>
 
@@ -54,12 +50,6 @@ const Footer = () => {
           rel="noreferrer"
         >
           <FaTwitter />
-        </a>
-        <a href="https://instagram.com " target="_blank" rel="noreferrer">
-          <BsInstagram />
-        </a>
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">
-          <FaFacebookF />
         </a>
       </div>
 
