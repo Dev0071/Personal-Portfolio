@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/JohnGacheru.pdf';
+import CV from '../../assets/Gacheru_John_Resume.pdf';
 
 function Cta() {
 	return (

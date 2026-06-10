@@ -8,12 +8,20 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>John Gacheru</h1>
+        <h5>Hello, I'm</h5>
+        <h1>
+          John Gacheru <span className="header__nickname">"Kabs"</span>
+        </h1>
         <h5 className="text-light">
-          A Front-end Developer with a degree in Computer Science from Kirinyaga
-          University in Kenya.
+          QA Automation Engineer & Full-Stack Developer
         </h5>
+        <p className="header__location">
+          Louisville, KY · Open to relocation
+        </p>
+        <p className="header__tagline">
+          Building reliable software systems — from test automation to
+          AI-powered tooling.
+        </p>
         <Cta />
         <HeaderSocials />
 

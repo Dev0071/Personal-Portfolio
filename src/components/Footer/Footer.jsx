@@ -7,19 +7,25 @@ import { BsGithub } from 'react-icons/bs';
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="/" className="footer__logo">
         @GacheruKabiru
       </a>
 
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="#About">About</a>
         </li>
         <li>
           <a href="#Experience">Experience</a>
+        </li>
+        <li>
+          <a href="#Education">Education</a>
+        </li>
+        <li>
+          <a href="#Skills">Skills</a>
         </li>
         <li>
           <a href="#Service">Services</a>
@@ -38,7 +44,7 @@ const Footer = () => {
           <BsGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/kabiru-gacheru-493bb7242"
+          href="https://www.linkedin.com/in/john-gacheru"
           target="_blank"
           rel="noreferrer"
         >

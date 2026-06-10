@@ -1,77 +1,63 @@
-.experience__container {
+.education__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 
-.experience__item {
+.education__item {
   background: var(--color-bg-variant);
   padding: 2rem;
   border-radius: 1.5rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  display: flex;
+  gap: 1.2rem;
 }
 
-.experience__item:hover {
+.education__item:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
 }
 
-.experience__item-header {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-  margin-bottom: 1.2rem;
-}
-
-.experience__icon {
+.education__icon {
   color: var(--color-primary);
-  font-size: 1.6rem;
-  margin-top: 0.3rem;
-}
-
-.experience__item h3 {
-  color: var(--color-primary);
-}
-
-.experience__item h4 {
-  font-size: 0.9rem;
-  font-weight: 400;
-  color: var(--color-light);
-}
-
-.experience__list li {
-  display: flex;
-  gap: 0.6rem;
-  margin-bottom: 0.6rem;
-  color: var(--color-light);
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.experience__list li::before {
-  content: '▹';
-  color: var(--color-primary);
+  font-size: 2rem;
   flex-shrink: 0;
 }
 
+.education__item h3 {
+  color: var(--color-primary);
+  margin-bottom: 0.4rem;
+}
+
+.education__item h4 {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--color-light);
+  margin-bottom: 0.6rem;
+}
+
+.education__item p {
+  font-size: 0.9rem;
+  color: var(--color-light);
+}
+
 @media screen and (max-width: 1000px) {
-  .experience__container {
+  .education__container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  .experience__item {
+  .education__item {
     width: 80%;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .experience__container {
-    gap: 1rem;
-  }
-  .experience__item {
+  .education__item {
     width: 100%;
+    flex-direction: column;
+    text-align: center;
     padding: 1.5rem;
   }
 }
