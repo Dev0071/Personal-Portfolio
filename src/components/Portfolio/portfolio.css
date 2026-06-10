@@ -70,9 +70,9 @@
 }
 .portfolio__item-cta {
   display: flex;
-  /* flex: 1; */
-  justify-content: space-around;
-  margin-bottom: 0.6rem;
+  gap: 1rem;
+  margin-bottom: 4rem;
+  justify-content: center;
 }
 
 /* tablets */

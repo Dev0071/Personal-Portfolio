@@ -1,6 +1,8 @@
 import React from 'react';
 import './portfolio.css';
 import Img3 from '../../assets/portfolio.png';
+import Img4 from '../../assets/Buglens.png';
+import Img5 from '../../assets/AutoApply.png';
 
 const Portfolio = () => {
   return (
@@ -9,9 +11,9 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item portfolio__item--featured">
-          <div className="portfolio__item-image portfolio__item-placeholder">
-            <span className="portfolio__badge">Active Build</span>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image ">
+            <img src={Img4} alt="BugLens" />
           </div>
           <h3>BugLens</h3>
           <p className="portfolio__item-desc">
@@ -20,14 +22,6 @@ const Portfolio = () => {
           </p>
           <h4>skills: Claude API, FastAPI, Next.js, OAuth 2.0</h4>
           <div className="portfolio__item-cta">
-            <a
-              href="https://buglens.co"
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-primary"
-            >
-              buglens.co
-            </a>
             <a
               href="https://staging.buglens.co"
               target="_blank"
@@ -40,8 +34,8 @@ const Portfolio = () => {
         </article>
 
         <article className="portfolio__item">
-          <div className="portfolio__item-image portfolio__item-placeholder">
-            <span className="portfolio__badge">Active Build</span>
+          <div className="portfolio__item-image ">
+            <img src={Img5} alt="AutoApply" />
           </div>
           <h3>AutoApply</h3>
           <p className="portfolio__item-desc">
