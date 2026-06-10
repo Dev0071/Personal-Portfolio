@@ -1,9 +1,6 @@
 import React from 'react';
 import './portfolio.css';
-import Img1 from '../../assets/cocktail.png';
-import Img2 from '../../assets/cryptoApp.png';
 import Img3 from '../../assets/portfolio.png';
-import Img4 from '../../assets/landingpage.png';
 
 const Portfolio = () => {
   return (
@@ -12,39 +9,72 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={Img2} alt="" />
+        <article className="portfolio__item portfolio__item--featured">
+          <div className="portfolio__item-image portfolio__item-placeholder">
+            <span className="portfolio__badge">Active Build</span>
           </div>
-          <h3>CrptoApp</h3>
-          <h4>skills: ReactJs, antd-design, chartsJs, linecharts</h4>
+          <h3>BugLens</h3>
+          <p className="portfolio__item-desc">
+            AI-powered bug triage and incident attribution platform.
+            Integrates with Sentry, Slack, Microsoft Teams, and Jira.
+          </p>
+          <h4>skills: Claude API, FastAPI, Next.js, OAuth 2.0</h4>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Dev0071/cyrpto-app"
+              href="https://buglens.co"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
+              buglens.co
+            </a>
+            <a
+              href="https://staging.buglens.co"
               target="_blank"
               rel="noreferrer"
               className="btn"
             >
-              Github
-            </a>
-            <a
-              href="https://react-cyrpto-app.vercel.app"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
+              Staging
             </a>
           </div>
         </article>
 
         <article className="portfolio__item">
+          <div className="portfolio__item-image portfolio__item-placeholder">
+            <span className="portfolio__badge">Active Build</span>
+          </div>
+          <h3>AutoApply</h3>
+          <p className="portfolio__item-desc">
+            AI-powered job application automation system. Finds, filters, and
+            applies to jobs through an end-to-end agentic pipeline, from job
+            discovery to form submission.
+          </p>
+          <h4>
+            skills: FastAPI, Playwright, Celery, Redis, PostgreSQL, Claude
+            API, Next.js
+          </h4>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image portfolio__item-placeholder">
+            <span className="portfolio__badge">Research / Build</span>
+          </div>
+          <h3>AI Code Governance Platform</h3>
+          <p className="portfolio__item-desc">
+            Detects and attributes AI-generated code in enterprise
+            repositories, scoring security and compliance risk relevant to EU
+            AI Act compliance.
+          </p>
+          <h4>skills: Python, XGBoost, SHAP, stylometry-based feature extraction</h4>
+        </article>
+
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Img3} alt="" />
+            <img src={Img3} alt="Personal Portfolio" />
           </div>
 
-          <h3>My Portfolio</h3>
-          <h4>skills: ReactJs, Css3, React-toastify, EmailJs</h4>
+          <h3>Personal Portfolio</h3>
+          <h4>skills: ReactJs, Css3</h4>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Dev0071/Personal-Portfolio"
@@ -55,61 +85,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://personal-portfolio-dev0071.vercel.app"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={Img4} alt="" />
-          </div>
-
-          <h3>HooBank Landingpage</h3>
-          <h4>skills: ReactJs, Css3, Jsx, TailwindCss</h4>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/Dev0071/react-payment-landing-page"
-              target="_blank"
-              rel="noreferrer"
-              className="btn"
-            >
-              Github
-            </a>
-            <a
-              href="https://react-payment-landing-page.vercel.app"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={Img1} alt="" />
-          </div>
-
-          <h3>Cockails App</h3>
-          <h4>skills: ReactJs, RestAPIs, Css3, React-router</h4>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/Dev0071/react-cocktails-app"
-              target="_blank"
-              rel="noreferrer"
-              className="btn"
-            >
-              Github
-            </a>
-            <a
-              href="https://cocktails-app-seven.vercel.app"
+              href="https://john-gacheru-dev0071.vercel.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"

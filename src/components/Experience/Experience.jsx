@@ -1,121 +1,57 @@
 import React from 'react';
 import './experience.css';
-import { BsFillPatchCheckFill } from 'react-icons/bs';
+import { BsBriefcaseFill } from 'react-icons/bs';
 
 const Experience = () => {
   return (
     <section id="Experience">
-      <h5>The skills I have</h5>
-      <h2>My Tech stack</h2>
+      <h5>My Journey</h5>
+      <h2>Work Experience</h2>
 
       <div className="container experience__container">
-        {/* ---------------------->frontend<-------------------------------------- */}
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>Tailwind</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
+        <article className="experience__item">
+          <div className="experience__item-header">
+            <BsBriefcaseFill className="experience__icon" />
+            <div>
+              <h3>QA Lead & Scrum Master</h3>
+              <h4>Griffin Global Technologies · 2024 – 2025</h4>
+            </div>
           </div>
-        </div>
+          <ul className="experience__list">
+            <li>Led a team of 2 QA engineers and 5 developers</li>
+            <li>
+              Owned QA strategy and quality standards for financial
+              applications (Howard Capital Management)
+            </li>
+            <li>
+              Led automation work using Selenium, Playwright, and Cypress
+            </li>
+            <li>
+              Certified Scrum Master (CSM); ran sprint planning,
+              retrospectives, and daily standups
+            </li>
+          </ul>
+        </article>
 
-        {/* ================================>Backend <=============================== */}
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>Express</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>MONGODB</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>PHP</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__detail-icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+        <article className="experience__item">
+          <div className="experience__item-header">
+            <BsBriefcaseFill className="experience__icon" />
+            <div>
+              <h3>QA Engineer</h3>
+              <h4>The Jitu · 2022 – 2024</h4>
+            </div>
           </div>
-        </div>
+          <ul className="experience__list">
+            <li>
+              Built automated test suites using Selenium, Cucumber/BDD, and C#
+            </li>
+            <li>Worked across web and API testing with REST integrations</li>
+            <li>
+              Contributed to CI/CD pipelines using GitHub Actions and Azure
+              DevOps
+            </li>
+          </ul>
+        </article>
       </div>
     </section>
   );

@@ -9,6 +9,25 @@ header {
   position: relative;
 }
 
+.header__nickname {
+  color: var(--color-primary);
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.header__location {
+  margin-top: 0.6rem;
+  color: var(--color-light);
+  font-size: 0.95rem;
+}
+
+.header__tagline {
+  max-width: 32rem;
+  margin: 0.6rem auto 0;
+  color: var(--color-light);
+  font-size: 1rem;
+}
+
 /* ===========cta============== */
 .cta {
   margin-top: 2.5rem;

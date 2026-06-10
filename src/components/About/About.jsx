@@ -1,8 +1,7 @@
 import React from 'react';
 import './About.css';
 import ME from '../../assets/john.jpg';
-import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+import { FaAward, FaGraduationCap } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 const About = () => {
@@ -23,34 +22,34 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years of Work</small>
+              <small>3+ Years in QA & Software Engineering</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>10+ Clients Worldwide</small>
+              <FaGraduationCap className="about__icon" />
+              <h5>Education</h5>
+              <small>M.S. Computer Science, U of L (2026)</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>50+ Completed</small>
+              <h5>Building</h5>
+              <small>BugLens, AutoApply & AI Tooling</small>
             </article>
           </div>
 
           <p>
-            I have been actively developing my skills for the past two years,
-            and have constantly seeking new challenges and opportunities to push
-            myself further.
-            <br /> As a developer, I'm committed to producing high-quality code
-            that is well-documented, maintainable, and scalable. I'm always
-            looking for ways to optimize my code for better performance, and I
-            enjoy collaborating with others to find creative solutions to
-            complex problems.
-            <br /> Thank you for checking out my portfolio, and feel free to
-            reach out if you have any questions or would like to work together
-            on a project!
+            I'm a QA Automation Engineer and full-stack developer with 3+ years
+            of experience spanning QA automation, full-stack development, and
+            AI-assisted software engineering.
+            <br /> I'm currently pursuing an M.S. in Computer Science at the
+            University of Louisville (expected 2026), with thesis research on
+            tamper-evident forensic logging and causal attribution for
+            auditable AI decision systems.
+            <br /> Right now I'm building BugLens, an AI-powered bug triage and
+            incident attribution platform, alongside other AI-driven tooling.
+            Feel free to reach out if you'd like to collaborate or chat about
+            QA, AI, or software engineering!
           </p>
 
           <a href="#Contact" className="btn btn-primary">
